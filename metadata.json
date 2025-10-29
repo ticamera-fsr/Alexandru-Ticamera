@@ -1,0 +1,5 @@
+{
+  "name": "Printify AI Mockup Generator",
+  "description": "An application for Printify users to generate T-shirt mockups using AI. Users can create a synthetic model, upload a garment design, and generate a hyperrealistic image of the model wearing the garment in various settings.",
+  "requestFramePermissions": []
+}

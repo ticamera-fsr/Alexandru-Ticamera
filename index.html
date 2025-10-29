@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Printify AI Mockup Generator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'printify-green': '#00B859',
+              'printify-blue': '#007BFF',
+            },
+          },
+        },
+      }
+    </script>
+    <style>
+      body {
+        background-color: #f9fafb;
+        background-image: url("data:image/svg+xml,%3csvg width='300' height='300' xmlns='http://www.w3.org/2000/svg'%3e%3cdefs%3e%3cg id='tshirt' fill-rule='evenodd' clip-rule='evenodd'%3e%3cpath d='M5,2 h20 l2,4 h4 v6 h-4 l-2,1 v15 H5 V13 H1 V7 h4 z'/%3e%3c/g%3e%3cg id='hoodie' fill-rule='evenodd' clip-rule='evenodd'%3e%3cpath d='M13,1 C10,1 8,4 8,6 L8,10 L20,10 L20,6 C20,4 17,1 13,1z M4,8 h20 v18 H4z M6,20 h16 v-6 H6z'/%3e%3c/g%3e%3cg id='cap' fill-rule='evenodd' clip-rule='evenodd'%3e%3cpath d='M15,3 A8,5 0,0,1 23,8 H28 V11 H2 V8 H7 A8,5 0,0,1 15,3 M15,3 A10,10 0,0,0 5,13 V8 H2 V11 H28 V8 H25 V13 A10,10 0,0,0 15,3'/%3e%3c/g%3e%3c/defs%3e%3crect width='100%25' height='100%25' fill='transparent'/%3e%3cg opacity='0.1' fill-rule='evenodd' clip-rule='evenodd'%3e%3cg transform='translate(30, 40) rotate(15) scale(2)'%3e%3cuse href='%23tshirt' fill='%23a1a1aa'/%3e%3c/g%3e%3cg transform='translate(150, 20) rotate(-10) scale(2)'%3e%3cuse href='%23hoodie' fill='%2393c5fd'/%3e%3c/g%3e%3cg transform='translate(200, 150) rotate(25) scale(1.8)'%3e%3cuse href='%23cap' fill='%2386efac'/%3e%3c/g%3e%3cg transform='translate(50, 180) rotate(-20) scale(2.2)'%3e%3cuse href='%23tshirt' fill='%23fca5a5'/%3e%3c/g%3e%3cg transform='translate(120, 250) rotate(5) scale(2)'%3e%3cuse href='%23hoodie' fill='%23c4b5fd'/%3e%3c/g%3e%3c/g%3e%3c/svg%3e");
+        background-size: 300px;
+        background-repeat: repeat;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.27.0"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
