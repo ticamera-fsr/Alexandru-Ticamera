@@ -1,6 +1,6 @@
-# Printify AI Mockup Generator
+# AI Mockup Generator
 
-This is a sophisticated web application designed for Printify users to generate hyperrealistic mockups of models wearing custom-designed apparel. Built with React, TypeScript, and powered by the Google Gemini API, it provides a seamless two-step workflow for creating stunning product visuals for e-commerce stores.
+This is a sophisticated web application designed for  users to generate hyperrealistic mockups of models wearing custom-designed apparel. Built with React, TypeScript, and powered by the Google Gemini API, it provides a seamless two-step workflow for creating stunning product visuals for e-commerce stores.
 
 ![Application Screenshot](https://i.imgur.com/example.png) <!-- Replace with an actual screenshot -->
 
@@ -93,8 +93,8 @@ The application is structured into a set of logical, reusable components.
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/printify-ai-mockup-generator.git
-    cd printify-ai-mockup-generator
+    git clone https://github.com/your-username/-ai-mockup-generator.git
+    cd -ai-mockup-generator
     ```
 
 2.  **Install dependencies:**
